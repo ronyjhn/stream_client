@@ -6,7 +6,7 @@ class GoogleAuth extends Component {
 		window.gapi.load('client:auth2', () => {
 			window.gapi.client
 				.init({
-					clientId: '900595888550-0dru7u37r584eqf4rgk43u5k6vuk5m24.apps.googleusercontent.com',
+					clientId: '<dummy_>.apps.googleusercontent.com',
 					scope: 'email'
 				})
 				.then(() => {
